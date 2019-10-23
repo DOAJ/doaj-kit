@@ -1,0 +1,53 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 0.01em;
+	line-height: 1.25;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Typescale in minor third */
+h1, h2, h3, h4, h5, h6 {
+	margin: 2.75rem 0 1rem;
+	font-family: 'Spectral', serif;
+	letter-spacing: -0.035em;
+	font-weight: 600;
+	line-height: 1.15;
+}
+
+h1 {
+	font-size: 2.488em;
+}
+
+h2 {
+	font-size: 2.074em;
+}
+
+h3 {
+	font-size: 1.728em;
+}
+
+h4 {
+	font-size: 1.44em;
+
+	&:before {
+		content: '— ';
+	}
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+h6, small {
+	font-size: 0.833em;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1.25em;
+}

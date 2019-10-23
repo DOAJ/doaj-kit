@@ -1,0 +1,15 @@
+---
+# Main Sass file requires front matter
+---
+@charset "utf-8";
+
+// Import partials
+@import
+  "normalize",
+	"palette",
+	"base",
+	"grid",
+	"typography",
+	"sidebar",
+	"light-mode",
+	"dark-mode";

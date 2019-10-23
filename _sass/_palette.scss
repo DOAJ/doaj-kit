@@ -1,0 +1,38 @@
+// Basic colour palette.
+// DO NOT use variables as is
+// Use semantic variables instead
+
+// Greyscale
+$black: 					#282624;
+$grey: 						#5D5753 ;
+$white: 					#FEFBF8;
+
+// Multichromatic
+$pine-green:			#006D6D;
+$teal: 						#1F9C9A;
+$venetian-red: 		#BC0B0B ;
+$crimson: 				#FF4B4B;
+$burnt-orange:		#9A4B00 ;
+$orange: 					#F68112;
+
+// Accessible colour combinations for `color` & `background-color`
+// when used with the multichromatic palette
+@mixin black-bg($theme-colour) {
+	background-color: $black;
+	color: $tint;
+}
+
+@mixin white-bg($theme-colour) {
+	background-color: $white;
+	color: $shade;
+}
+
+@mixin dark-hue-bg($theme-colour) {
+	background-color: $shade;
+	color: $white;
+}
+
+@mixin light-hue-bg() {
+	background-color: $tint;
+	color: $black;
+}
