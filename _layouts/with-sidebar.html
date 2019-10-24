@@ -33,12 +33,19 @@
 				<ul>
 					<li><a href="{{ baseurl }}/index.html">Inspiration</a></li>
 					<li><a href="{{ baseurl }}/blocks">Building blocks</a></li>
-					<li><a href="{{ baseurl }}/components/implementation">Implementation</a></li>
+					<li>
+						<a href="{{ baseurl }}/components/">Components</a>
+						<ul>
+							<li><a href="{{ baseurl }}/components/buttons">Buttons</a></li>
+							<li><a href="{{ baseurl }}/components/tags">Tags</a></li>
+						</ul>
+					</li>
+					<li><a href="{{ baseurl }}/examples/">Examples</a></li>
 				</ul>
 			</nav>
 
 			<section class="content">
-				<h2>{{ page.title }}</h2>
+				<h1>{{ page.title }}</h1>
 				{{ content }}
 			</section>
 		</div>

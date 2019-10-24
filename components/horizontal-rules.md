@@ -1,6 +1,6 @@
 ---
 layout: with-sidebar
-title: 'Buttons'
+title: 'Horizontal rules (thematic breaks)'
 ---
 
 {% include components/buttons.html %}
