@@ -46,7 +46,7 @@
 					</li>
 				</ul>
 
-				<button class="dark-light-toggler"></button>
+				<a href="#" id="darkLightToggler"><span data-feather="moon"></span></a>
 			</nav>
 
 			<section class="content">
@@ -76,21 +76,11 @@
 
 			'use strict';
 
-			// Feature test
 			if (!('localStorage' in window)) return;
 
-			// Get the navigation menu
-			var togglerBtn = document.querySelector('.dark-light-toggler');
-			if (!togglerBtn) return;
-
-			// Insert the dark mode toggle
-			togglerBtn.innerHTML += '<span data-feather="circle" class="dark-light-toggler__icon">Toggle</span>';
-
-			// Get our newly insert toggle
-			var darkMode = document.querySelector('.dark-light-toggler__icon');
+			var darkMode = document.querySelector('#darkLightToggler');
 			if (!darkMode) return;
 
-			// When clicked, toggle dark mode on or off
 			darkMode.addEventListener('click', function (event) {
 				event.preventDefault();
 				document.documentElement.classList.toggle('dark-mode');

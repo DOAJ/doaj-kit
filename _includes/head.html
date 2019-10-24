@@ -10,3 +10,13 @@
 <link rel="stylesheet" href="/css/main.css">
 
 <meta name="theme-color" content="#282624">
+
+<script>
+	;(function (window, document, undefined) {
+		'use strict';
+		if (!('localStorage' in window)) return;
+		var darkMode = localStorage.getItem('darkMode');
+		if (!darkMode) return;
+		document.documentElement.className += ' dark-mode';
+	})(window, document);
+</script>
