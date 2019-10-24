@@ -29,11 +29,16 @@
 
 @media (max-width: 768px) {
 	.sidebar__menu {
-		display: none;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height 0.75s;
 	}
 
-	.sidebar__icon,
-	.sidebar__menu_is-active {
+	.sidebar__icon {
 		display: block;
+	}
+
+	.sidebar__menu_is-active {
+		max-height: 100%;
 	}
 }
