@@ -60,4 +60,4 @@ Each colour can be associated with three types of pages, depending on their gene
    - OAI-PMH
    - API…
 
-![Three types of content & corresponding hues]({{ baseurl }}/img/implementation/threehues.png)
+<iframe title="Theming by colour on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D502%253A2" allowfullscreen></iframe>
