@@ -19,8 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: DOAJ.org’s Kit (WIP)
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+collections:
+  - building-blocks
+  - components
+  - examples
 
 # Build settings
 markdown: kramdown
@@ -31,6 +34,7 @@ permalink:
   pretty
 sass:
     style: :compact
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

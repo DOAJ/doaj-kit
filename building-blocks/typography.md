@@ -1,11 +1,12 @@
 ---
 layout: with-sidebar
 title: 'Typography'
+category: building-block
 ---
 
-## Typeface pairing
+## Pairing
 
-Two matching typefaces, based on their x-height, were selected to create a combination of serifs and sans-serifs. We will not load all of the weights, styles, and scripts at first to avoid performance issues.
+Three matching typefaces, based on their x-height, were selected to create a combination of serifs and sans-serifs. We will not load all of the weights, styles, and scripts at first to avoid performance issues.
 
 Their use is restricted to the following:  
 

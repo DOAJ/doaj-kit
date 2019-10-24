@@ -1,7 +1,4 @@
 .sidebar {
-	position: relative;
-	width: 100%;
-
 	ul, ol {
 		list-style: none;
 		padding-left: 0;
@@ -10,47 +7,10 @@
 			padding-left: 1em;
 		}
 	}
-
+	
 	a {
 		display: block;
 		padding: 0.75em 0;
 		text-decoration: none;
-	}
-}
-
-
-@media (min-width: 768px) {
-	.sidebar {
-		padding-right: 1.5vw;
-	}
-
-	.sidebar {
-		-ms-flex: 0 0 33.333333%;
-		flex: 0 0 33.333333%;
-		max-width: 33.333333%;
-	}
-
-	.content {
-		-ms-flex: 0 0 66.666667%;
-		flex: 0 0 66.666667%;
-		max-width: 66.666667%;
-	}
-
-	.content .col-1 {
-		-ms-flex: 0 0 50%;
-		flex: 0 0 50%;
-		max-width: 50%;
-	}
-}
-
-@media (min-width: 992px) {
-	.sidebar {
-		padding-right: 2.5vw;
-	}
-}
-
-@media (min-width: 1200px) {
-	.sidebar {
-		padding-right: 5vw;
 	}
 }

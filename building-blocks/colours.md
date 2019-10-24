@@ -1,6 +1,7 @@
 ---
 layout: with-sidebar
 title: 'Colours'
+category: building-block
 ---
 
 ### Palette

@@ -1,6 +1,7 @@
 ---
 layout: with-sidebar
 title: 'Layout'
+category: building-block
 ---
 
 Instead of using Bootstrap’s 12-column grid, we simplified the layout’s grid to be based on only three columns. All content (text, images) must be left-aligned (no justified or centred text). There are a total of six different variations.
