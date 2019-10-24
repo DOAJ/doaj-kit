@@ -27,11 +27,12 @@
 				</a>
 
 				<ul class="sidebar__menu">
-					<li><a href="{{ baseurl }}/index.html">Overview</a></li>
+					<li><a href="{{ baseurl }}">Overview</a></li>
 					<li>
 						<a href="#">Building blocks</a>
 						<ul>
 							<li><a href="{{ baseurl }}/building-blocks/colours">Colours</a></li>
+							<li><a href="{{ baseurl }}/building-blocks/themes">Themes</a></li>
 							<li><a href="{{ baseurl }}/building-blocks/typography">Typography</a></li>
 							<li><a href="{{ baseurl }}/building-blocks/icons">Icons</a></li>
 							<li><a href="{{ baseurl }}/building-blocks/layout">Layout</a></li>
@@ -56,12 +57,10 @@
 		</div>
 
 		<script src="https://unpkg.com/feather-icons"></script>
-		<script>
-			// Use Feather icons
-			feather.replace()
-		</script>
 
 		<script>
+		// Use Feather icons
+		feather.replace()
 
 		// Responsive menu
 		var openMenu = document.querySelector(".sidebar__icon");
