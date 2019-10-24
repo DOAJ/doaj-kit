@@ -14,7 +14,7 @@ We offer two types of page layouts: with a side navigation on the left, or witho
 
 **Without** a sidebar allows for four different types of content blocks using thirds or two-thirds of the page.
 
-<iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D439%253A53" allowfullscreen></iframe>
+<iframe title="Layout without a sidebar on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D439%253A53" allowfullscreen></iframe>
 
 We won’t allow a full-width content block to avoid long lines of text, which hinders the proper parsing of longer paragraphs.
 
@@ -22,7 +22,7 @@ We won’t allow a full-width content block to avoid long lines of text, which h
 
 **With a sidebar** allows for two different types of content blocks using full-width (two-thirds) and halves (thirds) of the remaining space.
 
-<iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D439%253A52" allowfullscreen></iframe>
+<iframe title="Layout with a sidebar on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D439%253A52" allowfullscreen></iframe>
 
 The sidebar area (in red) should be mainly used for in-page navigation. It takes up the whole width of the page on smaller viewports (e.g. mobile devices). Examples of uses of the sidebar include:
 - a list of filters for the search tool;
