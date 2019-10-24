@@ -1,41 +1,10 @@
 ---
 layout: with-sidebar
-title: 'Inspiration'
+title: 'Overview'
 ---
 
-Consistency, accessibility, and performance are at the core of DOAJ’s UI redesign.
+This living document is the beginning of a basic kit for designing and developing DOAJ.org’s pages. Eventually, it will be elaborated to include collaterals (PDF reports, presentation decks, e-mail headers) and social media assets. An [article about The Economist’s design system](https://medium.com/severe-contest/how-were-establishing-a-new-visual-language-for-the-economist-3e164c233390) defines it as such:
 
-### In art
+> A design system is a living document in software and code. It is always up to date and new releases are immediately available to other products; a so-called “single source of truth”. As well as including all brand attributes and interface components, a design system contains the principles, standards and best practices to deliver a consistent user experience.
 
-Our main design choices were inspired by visuals from artists at the intersection of art & science and guided by three attributes defined for DOAJ: far-reaching, honest, and reliable.
-
-Movement and colour palette  
-— Bridget Riley’s op art
-
-![Bridget Riley](../img/inspiration/riley.jpg)
-
-Bold colour blocks and expressiveness  
-— Matisse’s cut-outs
-
-![Matisse](../img/inspiration/matisse.jpg)
-
-Repetition, musical patterns, and scale  
-— Agnès Martin’s minimalism
-
-![Agnès Martin](../img/inspiration/martin.jpg)
-
-Structured grid and objectivity  
-— Swiss Style / International Typographic Style
-
-![Swiss Style](../img/inspiration/swiss.jpg)
-
-### From other websites
-
-- [Increment](https://increment.com)
-- [Financial Times](https://www.ft.com/)
-- [Dropbox Design](https://dropbox.design/)
-- [The Guardian](https://www.theguardian.com/)
-- [Wikimedia Foundation](https://wikimediafoundation.org/)
-- [Mozilla Foundation](https://foundation.mozilla.org)
-- [Princeton University Press](https://press.princeton.edu)
-- [The New York Times Company](https://www.nytco.com/company/diversity-and-inclusion/2018-diversity-inclusion-report/)
+Consistency, accessibility, and performance are at the core of DOAJ’s UI redesign. This document will help us make sure that we are meeting these three requirements.
