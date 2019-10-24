@@ -45,6 +45,8 @@
 						</ul>
 					</li>
 				</ul>
+
+				<button class="dark-light-toggler"></button>
 			</nav>
 
 			<section class="content">
@@ -55,19 +57,52 @@
 
 		<script src="https://unpkg.com/feather-icons"></script>
 		<script>
+			// Use Feather icons
 			feather.replace()
 		</script>
 
 		<script>
-		// for IE10, .getElementsByClassName()[0];
-		var toggle = document.querySelector(".sidebar__icon");
+
+		// Responsive menu
+		var openMenu = document.querySelector(".sidebar__icon");
 		var nav = document.querySelector(".sidebar__menu");
 
-		// Listen for click event on toggle var
-		toggle.addEventListener('click', function() {
-			// toggle class "active" on topNav var
+		openMenu.addEventListener('click', function() {
 			nav.classList.toggle("sidebar__menu_is-active");
 		}, false);
+
+		// Dark-light mode toggler
+		;(function (window, document, undefined) {
+
+			'use strict';
+
+			// Feature test
+			if (!('localStorage' in window)) return;
+
+			// Get the navigation menu
+			var togglerBtn = document.querySelector('.dark-light-toggler');
+			if (!togglerBtn) return;
+
+			// Insert the dark mode toggle
+			togglerBtn.innerHTML += '<span data-feather="circle" class="dark-light-toggler__icon">Toggle</span>';
+
+			// Get our newly insert toggle
+			var darkMode = document.querySelector('.dark-light-toggler__icon');
+			if (!darkMode) return;
+
+			// When clicked, toggle dark mode on or off
+			darkMode.addEventListener('click', function (event) {
+				event.preventDefault();
+				document.documentElement.classList.toggle('dark-mode');
+				if ( document.documentElement.classList.contains('dark-mode') ) {
+					localStorage.setItem('darkMode', true);
+					return;
+				}
+				localStorage.removeItem('darkMode');
+			}, false);
+
+		})(window, document);
+
 		</script>
 	</main>
 </body>
