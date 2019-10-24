@@ -9,24 +9,31 @@
 		list-style: none;
 		padding-left: 0;
 
-		ul li a:before {
-			content: '— ';
+		li a {
+			display: block;
+			padding: 0.75em 0;
+			text-decoration: none;
 		}
-	}
 
-	a {
-		display: block;
-		padding: 0.75em 0;
-		text-decoration: none;
+		ul li a {
+			&:before {
+				content: '— ';
+			}
+		}
 	}
 }
 
-@media (max-width: 768px) {
-	.sidebar {
-		background: red;
+.sidebar__icon {
+	display: none;
+}
 
-		ul {
-			display: none;
-		}
+@media (max-width: 768px) {
+	.sidebar__menu {
+		display: none;
+	}
+
+	.sidebar__icon,
+	.sidebar__menu_is-active {
+		display: block;
 	}
 }

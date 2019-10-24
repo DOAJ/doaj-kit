@@ -20,7 +20,11 @@
 		<div class="row">
 			<nav class="sidebar">
 				<h2>Table of contents</h2>
-				<ul>
+
+
+				<a href="#" class="sidebar__icon" id="sidebar__icon"><span data-feather="menu"></span></a>
+
+				<ul class="sidebar__menu">
 					<li><a href="{{ baseurl }}/index.html">Overview</a></li>
 					<li>
 						<a href="#">Building blocks</a>
@@ -45,6 +49,23 @@
 				{{ content }}
 			</section>
 		</div>
+
+		<script src="https://unpkg.com/feather-icons"></script>
+		<script>
+			feather.replace()
+		</script>
+
+		<script>
+		// for IE10, .getElementsByClassName()[0];
+		var toggle = document.querySelector(".sidebar__icon");
+		var nav = document.querySelector(".sidebar__menu");
+
+		// Listen for click event on toggle var
+		toggle.addEventListener('click', function() {
+			// toggle class "active" on topNav var
+			nav.classList.toggle("sidebar__menu_is-active");
+		}, false);
+		</script>
 	</main>
 </body>
 
