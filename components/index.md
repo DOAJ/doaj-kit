@@ -3,7 +3,7 @@ layout: with-sidebar
 title: 'Components'
 ---
 
-### Overview
+## Overview
 
 Putting it all together.
 

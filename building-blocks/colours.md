@@ -4,7 +4,7 @@ title: 'Colours'
 category: building-block
 ---
 
-### Palette
+## Palette
 
 The palette plays on a polychromatic selection of hues, with an inclination for warmer colours.
 
@@ -14,7 +14,7 @@ We’ve kept the colour orange, a reminder of PLOS’ Open Access orange and a c
 
 ---
 
-### Proportions
+## Proportions
 
 Generally, every page on the website should adhere to the following proportions (collaterals like PDF reports may deviate from this, to use full-page blocks of colours for example):
 
@@ -30,7 +30,7 @@ Generally, every page on the website should adhere to the following proportions 
 
 ---
 
-### Accessible combinations
+## Accessible combinations
 
 Not all colours can be mixed together if we want content to be accessible for users with colour vision deficiencies (CVDs). Graphical and non-essential page elements (i.e. not required to understand the content) are not bound by these combinations.
 
@@ -40,7 +40,7 @@ The following are the acceptable (WCAG AA-compliant) combinations of colours for
 
 ---
 
-### Themes (WIP)
+## Themes (WIP)
 
 Although the palette includes three different hues (orange, crimson, and teal), we recommend using a single hue per page.
 

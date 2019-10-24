@@ -10,11 +10,15 @@ This restricts the possible page layouts so that it doesn’t allow for too many
 
 We offer two types of page layouts: with a side navigation on the left, or without. If we find that these choices are too restrictive, we can easily update it (e.g. use six columns instead of three).
 
+## No sidebar
+
 **Without** a sidebar allows for four different types of content blocks using thirds or two-thirds of the page.
 
 <iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D439%253A53" allowfullscreen></iframe>
 
 We won’t allow a full-width content block to avoid long lines of text, which hinders the proper parsing of longer paragraphs.
+
+## With sidebar
 
 **With a sidebar** allows for two different types of content blocks using full-width (two-thirds) and halves (thirds) of the remaining space.
 
