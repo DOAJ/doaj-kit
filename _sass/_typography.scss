@@ -1,20 +1,15 @@
+/* Typescale in minor third */
 html {
+	font-family: $sans-serif;
 	font-size: 18px;
-}
-
-body {
-	font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 0.01em;
-	line-height: 1.25;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/* Typescale in minor third */
 h1, h2, h3, h4, h5, h6 {
-	margin: 2.75rem 0 1rem;
-	font-weight: 600;
 	line-height: 1.15;
+	margin: 2.75rem 0 1rem;
 }
 
 h1 {
@@ -48,4 +43,13 @@ h6, small {
 p {
 	margin-top: 0;
 	margin-bottom: 1.25em;
+}
+
+p, li {
+	line-height: 1.25;
+}
+
+pre, code {
+	font-family: $monospace;
+	letter-spacing: -0.025em;
 }

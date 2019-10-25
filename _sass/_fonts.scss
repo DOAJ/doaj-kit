@@ -1,0 +1,14 @@
+// Core fonts
+$serif: 			'Spectral', serif;
+$sans-serif: 	'Source Sans Pro', sans-serif;
+$monospace: 	'Source Code Pro', monospace;
+
+@mixin font-heading() {
+	font-family: $serif;
+	letter-spacing: -0.075em;
+}
+
+@mixin font-body() {
+	font-family: $sans-serif;
+	letter-spacing: 0.01em;
+}
