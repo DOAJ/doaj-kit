@@ -43,3 +43,17 @@ ul, ol {
 		padding-left: 1em;
 	}
 }
+
+table {
+	margin-bottom: 2em;
+	text-align: left;
+	width: 100%;
+
+	th {
+		font-weight: 400;
+	}
+
+	th, td {
+		padding: 0.5em 0.15em;
+	}
+}
