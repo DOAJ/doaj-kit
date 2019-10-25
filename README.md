@@ -1,6 +1,6 @@
-# WIP: DOAJ.org’s UI kit
+# Manuscript: DOAJ’s Kit
 
-The beginnings of a design system for DOAJ.org. 
+The beginnings of a design system for DOAJ.org.
 
 ## Install Jekyll
 
