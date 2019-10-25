@@ -1,17 +1,17 @@
 .dark-mode {
 	body {
-		background-color: #282624;
+		background-color: $black;
 		color: $white;
 	}
 
 	header {
 		background-color: $white;
-		color: #282624;
+		color: $black;
 	}
 
 	footer {
 		background-color: #1F9C9A;
-		color: #282624;
+		color: $black;
 	}
 
 	iframe {
