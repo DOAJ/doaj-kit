@@ -7,16 +7,16 @@ category: building-block
 Although the palette includes three different hues (orange, crimson, and teal), we recommend using a single hue per page.
 
 Each colour can be associated with three types of pages, depending on their general objective:
-1. **Burnt orange**: learning about what we do
+1. <span data-feather="droplet" class="burnt-orange-fill"></span> <span data-feather="droplet" class="orange-fill"></span> **Burnt orange & orange**: learning about what we do
    - News
    - FAQs
    - Privacy
    - About…
-2. **Venetian red**: submitting an application
+2. <span data-feather="droplet" class="venetian-red-fill"></span> <span data-feather="droplet" class="crimson-fill"></span> **Venetian red & crimson**: submitting an application
    - Apply
    - For Publishers
    - Copyright & Licensing Help…
-3. **Pine green**: accessing the content
+3. <span data-feather="droplet" class="pine-green-fill"></span> <span data-feather="droplet" class="teal-fill"></span> **Pine green & teal**: accessing the content
    - Search
    - Widgets
    - OAI-PMH
