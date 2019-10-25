@@ -3,16 +3,16 @@
 // Use semantic variables instead
 
 // Greyscale
-$black: 					#282624;
-$white: 					#FEFBF8;
+$black: 					hsl(30, 5%, 15%);
+$white: 					hsl(30, 75%, 98%);
 
 // Multichromatic
-$pine-green:			#006D6D;
-$teal: 						#1F9C9A;
-$venetian-red: 		#BC0B0B ;
-$crimson: 				#FF4B4B;
-$burnt-orange:		#9A4B00 ;
-$orange: 					#F68112;
+$pine-green:			hsl(180, 100%, 21%);
+$teal: 						hsl(179, 67%, 37%);
+$venetian-red: 		hsl(0, 89%, 39%);
+$crimson: 				hsl(0, 100%, 65%);
+$burnt-orange:		hsl(29, 100%, 30%);
+$orange: 					hsl(29, 93%, 52%);
 
 // Accessible colour combinations for `color` & `background-color`
 // when used with the multichromatic palette
@@ -34,4 +34,44 @@ $orange: 					#F68112;
 @mixin light-hue-bg() {
 	background-color: $tint;
 	color: $black;
+}
+
+.black-fill {
+	fill: $black;
+	stroke: $black;
+}
+
+.white-fill {
+	fill: $white;
+	stroke: $black;
+}
+
+.pine-green-fill {
+	fill: $pine-green;
+	stroke: $pine-green;
+}
+
+.teal-fill {
+	fill: $teal;
+	stroke: $teal;
+}
+
+.venetian-red-fill {
+	fill: $venetian-red;
+	stroke: $venetian-red;
+}
+
+.crimson-fill {
+	fill: $crimson;
+	stroke: $crimson;
+}
+
+.burnt-orange-fill {
+	fill: $burnt-orange;
+	stroke: $burnt-orange;
+}
+
+.orange-fill {
+	fill: $orange;
+	stroke: $orange;
 }

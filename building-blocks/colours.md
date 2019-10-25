@@ -10,23 +10,20 @@ The palette plays on a polychromatic selection of hues, with an inclination for 
 
 We’ve kept the colour orange, a reminder of PLOS’ Open Access orange and a colour familiar to DOAJ’s user base, but it has matured into a darker burnt orange shade as well as softer light orange tint.
 
-{% include blocks/colours.html %}
-
----
-
-## Proportions
-
-Generally, every page on the website should adhere to the following proportions (collaterals like PDF reports may deviate from this, to use full-page blocks of colours for example):
+Generally, every page on the website should adhere to the following proportions. Collaterals like PDF reports may deviate from this, to use full-page blocks of colours for example.
 
 {% include blocks/colour-proportions.html %}
 
 - 80% greyscale:
-  - Warm White
-  - Warm Black
+  - Warm White `#FEFBF8` <span data-feather="droplet" class="white-fill"></span>
+  - Warm Black `#282624` <span data-feather="droplet" class="black-fill"></span>
 - 20% colours:
-  - Teal & Pine Green
-  - Orange & Burnt Orange
-  - Crimson & Venetian Red
+  - Teal `#1F9C9A` <span data-feather="droplet" class="teal-fill"></span>
+  - Pine Green `#006D6D` <span data-feather="droplet" class="pine-green-fill"></span>
+  - Orange `#F68112` <span data-feather="droplet" class="orange-fill"></span>
+  - Burnt Orange `#9A4B00 ` <span data-feather="droplet" class="burnt-orange-fill"></span>
+  - Crimson `#FF4B4B` <span data-feather="droplet" class="crimson-fill"></span>
+  - Venetian Red `#BC0B0B` <span data-feather="droplet" class="venetian-red-fill"></span>
 
 ---
 
