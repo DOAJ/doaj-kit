@@ -4,8 +4,6 @@ title: 'Colours'
 category: building-block
 ---
 
-## Palette
-
 The palette plays on a polychromatic selection of hues, with an inclination for warmer colours.
 
 We’ve kept the colour orange, a reminder of PLOS’ Open Access orange and a colour familiar to DOAJ’s user base, but it has matured into a darker burnt orange shade as well as softer light orange tint.
