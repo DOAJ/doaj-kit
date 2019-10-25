@@ -14,14 +14,12 @@ Generally, every page on the website should adhere to the following proportions.
 
 Collaterals like PDF reports may deviate from this, to use full-page blocks of colours for example.
 
-| Greyscale                                                            | HSL                   | HEX       |
-|----------------------------------------------------------------------|-----------------------|-----------|
-| <span data-feather="droplet" class="white-fill"></span> Warm white   | `hsl(30, 75%, 98%)`   | `#FEFBF8` |
-| <span data-feather="droplet" class="black-fill"></span> Warm black   | `hsl(30, 5%, 15%)`    | `#282624` |
-
-
-| Colours                                                                     | HSL                   | HEX       |
+| Name                                                                        | HSL                   | HEX       |
 |-----------------------------------------------------------------------------|-----------------------|-----------|
+| _Greyscale_                                                                                                     |
+| <span data-feather="droplet" class="white-fill"></span> Warm white          | `hsl(30, 75%, 98%)`   | `#FEFBF8` |
+| <span data-feather="droplet" class="black-fill"></span> Warm black          | `hsl(30, 5%, 15%)`    | `#282624` |
+| _Colours_                                                                   |                       |           |
 | <span data-feather="droplet" class="teal-fill"></span> Teal        			    | `hsl(179, 67%, 37%)`  | `#1F9C9A` |
 | <span data-feather="droplet" class="pine-green-fill"></span> Pine green     | `hsl(180, 100%, 21%)` | `#006D6D` |
 | <span data-feather="droplet" class="orange-fill"></span> Orange             | `hsl(29, 93%, 52%)`   | `#F68112` |
