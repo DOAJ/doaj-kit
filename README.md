@@ -10,7 +10,7 @@ Ruby must be installed.
 
 ## Building the website
 
-1. `git clone https://github.com/sssoz/doaj-redesign.git`
-2. `cd doaj-redesign`
+1. `git clone https://github.com/doaj/doaj-kit.git`
+2. `cd doaj-kit`
 3. `jekyll build`
-4. Content to be published will be found in `doaj-redesign/_site`
+4. Content to be published will be found in `doaj-kit/_site`
