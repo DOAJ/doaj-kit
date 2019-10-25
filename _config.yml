@@ -18,7 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Manuscript. <br/>DOAJ’s Kit
+title: Manuscript. DOAJ’s Kit
+html_title: Manuscript. <br/>DOAJ’s Kit
 
 collections:
   - building-blocks
