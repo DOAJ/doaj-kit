@@ -4,11 +4,11 @@ title: 'Logotype'
 category: building-block
 ---
 
-⟶ [Download](../img/blocks/doaj-logotype.zip) all four variations of the logotype in SVG.
+⟶ [Download](../img/blocks/doaj-logotype.zip) all four variations of the logo in SVG.
 
 Please make sure to **always** leave white space around the logotype: the exclusion zone should measure about half of the height of the **O** in _DOAJ_.
 
-The logotype should only be displayed in either of the four following variations:
+It should only be displayed in either of the four following variations:
 
 1. Black (`#000`) on white (`#FFF`)
 2. White (`#FFF`) on black (`#000`)
