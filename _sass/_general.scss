@@ -8,6 +8,16 @@ header {
 		font-size: 1em;
 		text-transform: uppercase;
 	}
+
+	.container {
+		display: flex;
+		align-items: center;
+	}
+
+	.header-logo {
+		height: 40px;
+		margin-right: 0.25rem;
+	}
 }
 
 main {

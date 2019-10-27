@@ -12,6 +12,7 @@
 
 	<header>
 		<div class="container">
+		  {% include logotype.svg %}
 			<h1>{{ site.html_title }}</h1>
 		</div>
 	</header>
@@ -20,7 +21,6 @@
 		<div class="row">
 			<nav class="sidebar">
 				<h2>Table of contents</h2>
-
 
 				<a href="#" class="sidebar__icon" id="sidebar__icon" aria-label="Click to open menu">
 					<span data-feather="menu"></span>
@@ -49,7 +49,7 @@
 					<li><a href="{{ baseurl }}/themes">Themes</a></li>
 				</ul>
 
-				<a href="#" id="darkLightToggler"><span data-feather="moon"></span></a>
+				<a href="#" id="darkLightToggler" title="Toggle between dark mode and light mode"><span data-feather="moon"></span></a>
 			</nav>
 
 			<section class="content">

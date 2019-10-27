@@ -7,11 +7,10 @@
 	header {
 		background-color: $white;
 		color: $black;
-	}
 
-	footer {
-		background-color: #1F9C9A;
-		color: $black;
+		.header-logo path {
+			fill: $black;
+		}
 	}
 
 	iframe {
