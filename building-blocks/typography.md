@@ -4,7 +4,9 @@ title: 'Typography'
 category: building-block
 ---
 
-We have paired the SIL-licensed open source typefaces _Spectral_, a serif, _Source Sans Pro_, a sans-serif, and _Source Code Pro_, a monospaced sans-serif, to be used throughout DOAJ’s interface. All fonts were designed with screen reading and user interfaces in mind. 
+⟶ [Download all font files](/files/fonts.zip) used in the UI.
+
+We have paired the SIL-licensed open source typefaces _Spectral_, a serif, _Source Sans Pro_, a sans-serif, and _Source Code Pro_, a monospaced sans-serif, to be used throughout DOAJ’s interface. All fonts were designed with screen reading and user interfaces in mind.
 
 Their usage is restricted to the following:  
 
