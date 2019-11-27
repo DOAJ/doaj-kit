@@ -10,6 +10,17 @@ jobs:
         with:
           urls: |
             https://doaj-kit.netlify.com/
+            https://doaj-kit.netlify.com/building-blocks/
+            https://doaj-kit.netlify.com/building-blocks/colours/
+            https://doaj-kit.netlify.com/building-blocks/typography/
+            https://doaj-kit.netlify.com/building-blocks/icons/
+            https://doaj-kit.netlify.com/building-blocks/patterns/
+            https://doaj-kit.netlify.com/building-blocks/layout/
+            https://doaj-kit.netlify.com/building-blocks/logotype/
+            https://doaj-kit.netlify.com/components/
+            https://doaj-kit.netlify.com/components/buttons/
+            https://doaj-kit.netlify.com/components/tags/
+            https://doaj-kit.netlify.com/themes/
           temporaryPublicStorage: true
       - name: Save results
         uses: actions/upload-artifact@v1
