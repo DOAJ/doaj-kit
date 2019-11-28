@@ -15,4 +15,4 @@ It should only be displayed in either of the four following variations:
 3. Warm white (<span data-feather="droplet" class="white-fill"></span> `#FEFBF8`) on a transparent background
 4. Warm black (<span data-feather="droplet" class="black-fill"></span> `#282624`) on a transparent background
 
-<iframe width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D1152%253A6" allowfullscreen></iframe>
+<iframe title="DOAJ logotypes on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D1152%253A6" allowfullscreen></iframe>
