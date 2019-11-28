@@ -21,6 +21,8 @@ jobs:
             https://doaj-kit.netlify.com/components/buttons/
             https://doaj-kit.netlify.com/components/tags/
             https://doaj-kit.netlify.com/themes/
+          runs: 3
+          configPath: '.github/workflows/lighthouserc.json'
           temporaryPublicStorage: true
       - name: Save results
         uses: actions/upload-artifact@v1
