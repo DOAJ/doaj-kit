@@ -28,6 +28,12 @@
 	display: none;
 }
 
+.sidebar__menu {
+  > li > a {
+    text-transform: uppercase;
+  }
+}
+
 @media (max-width: 768px) {
 	.sidebar__menu {
 		max-height: 0;
