@@ -7,12 +7,10 @@ $black: 					hsl(30, 5%, 15%);
 $white: 					hsl(30, 75%, 98%);
 
 // Multichromatic
-$pine-green:			hsl(180, 100%, 21%);
+$pine:	       		hsl(180, 100%, 21%);
 $teal: 						hsl(179, 67%, 37%);
-$venetian-red: 		hsl(0, 89%, 39%);
-$crimson: 				hsl(0, 100%, 65%);
-$burnt-orange:		hsl(29, 100%, 30%);
-$orange: 					hsl(29, 93%, 52%);
+$sanguine: 	    	hsl(15, 88%, 32%);
+$grapefruit: 	  	hsl(10, 98%, 61%);
 
 // Accessible colour combinations for `color` & `background-color`
 // when used with the multichromatic palette
@@ -46,9 +44,9 @@ $orange: 					hsl(29, 93%, 52%);
 	stroke: $black;
 }
 
-.pine-green-fill {
-	fill: $pine-green;
-	stroke: $pine-green;
+.pine-fill {
+	fill: $pine;
+	stroke: $pine;
 }
 
 .teal-fill {
@@ -56,22 +54,12 @@ $orange: 					hsl(29, 93%, 52%);
 	stroke: $teal;
 }
 
-.venetian-red-fill {
-	fill: $venetian-red;
-	stroke: $venetian-red;
+.sanguine-fill {
+	fill: $sanguine;
+	stroke: $sanguine;
 }
 
-.crimson-fill {
-	fill: $crimson;
-	stroke: $crimson;
-}
-
-.burnt-orange-fill {
-	fill: $burnt-orange;
-	stroke: $burnt-orange;
-}
-
-.orange-fill {
-	fill: $orange;
-	stroke: $orange;
+.grapefruit-fill {
+	fill: $grapefruit;
+	stroke: $grapefruit;
 }

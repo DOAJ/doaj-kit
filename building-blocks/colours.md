@@ -4,10 +4,6 @@ title: 'Colours'
 category: building-block
 ---
 
-The palette plays on a polychromatic selection of hues, with an inclination for warmer colours.
-
-We’ve kept orange, a reminder of PLOS’ Open Access orange and a colour familiar to DOAJ’s user base, but it has matured into a darker burnt orange shade complemented by its softer light orange tint counterpart.
-
 Generally, every page on the website should adhere to the following colour proportions.
 
 {% include blocks/colour-proportions.html %}
@@ -21,11 +17,9 @@ Collaterals like PDF reports may deviate from this, to use full-page blocks of c
 | <span data-feather="droplet" class="black-fill"></span> Warm black          | `hsl(30, 5%, 15%)`    | `#282624` |
 | _Colours_                                                                   |                       |           |
 | <span data-feather="droplet" class="teal-fill"></span> Teal        			    | `hsl(179, 67%, 37%)`  | `#1F9C9A` |
-| <span data-feather="droplet" class="pine-green-fill"></span> Pine green     | `hsl(180, 100%, 21%)` | `#006D6D` |
-| <span data-feather="droplet" class="orange-fill"></span> Orange             | `hsl(29, 93%, 52%)`   | `#F68112` |
-| <span data-feather="droplet" class="burnt-orange-fill"></span> Burnt orange | `hsl(29, 100%, 30%)`  | `#9A4B00` |
-| <span data-feather="droplet" class="crimson-fill"></span> Crimson           | `hsl(0, 100%, 65%)`   | `#FF4B4B` |
-| <span data-feather="droplet" class="venetian-red-fill"></span> Venetian red | `hsl(0, 89%, 39%)`    | `#BC0B0B` |
+| <span data-feather="droplet" class="pine-fill"></span> Pine                 | `hsl(180, 100%, 21%)` | `#006D6D` |
+| <span data-feather="droplet" class="grapefruit-fill"></span> Grapefruit     | `hsl(10, 98%, 61%)`   | `#FD5A3B` |
+| <span data-feather="droplet" class="sanguine-fill"></span> Sanguine         | `hsl(15, 88%, 32%)`   | `#982E0A` |
 
 
 ## Accessible combinations
