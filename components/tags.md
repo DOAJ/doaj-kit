@@ -3,4 +3,4 @@ layout: with-sidebar
 title: 'Tags'
 ---
 
-{% include components/tags.html %}
+<iframe title="Tags components on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FNy8g5fNa6KfnzxV0Jt3PQN%2FButtons%3Fnode-id%3D29%253A2" allowfullscreen></iframe>
