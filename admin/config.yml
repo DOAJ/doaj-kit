@@ -22,4 +22,12 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publishing Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'content-writing'
+    label: 'Content writing'
+    folder: 'content-writing/'
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "with-sidebar"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publishing Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
 publish_mode: editorial_workflow
