@@ -1,6 +1,11 @@
 ---
 layout: with-sidebar
-title: 'Tags'
+title: Tags
+date: 2020-10-17T21:58:09.520Z
 ---
-
-<iframe title="Tags components on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FNy8g5fNa6KfnzxV0Jt3PQN%2FButtons%3Fnode-id%3D29%253A2" allowfullscreen></iframe>
+<p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="sophyo" data-slug-hash="pobyXoR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Tags">
+  <span>See the Pen <a href="https://codepen.io/sophyo/pen/pobyXoR">
+  Tags</a> by Sophy (<a href="https://codepen.io/sophyo">@sophyo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
