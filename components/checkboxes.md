@@ -1,10 +1,8 @@
 ---
 layout: with-sidebar
-title: 'Checkboxes'
+title: Checkboxes
+date: 2020-10-17T21:23:32.276Z
 ---
-
-<iframe title="Checkboxes components on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FNy8g5fNa6KfnzxV0Jt3PQN%2FComponents%3Fnode-id%3D37%253A9" allowfullscreen></iframe>
-
 <p class="codepen" data-height="265" data-theme-id="default" data-default-tab="css,result" data-user="sophyo" data-slug-hash="yLyrgJN" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Checkboxes">
   <span>See the Pen <a href="https://codepen.io/sophyo/pen/yLyrgJN">
   Checkboxes</a> by Sophy (<a href="https://codepen.io/sophyo">@sophyo</a>)
