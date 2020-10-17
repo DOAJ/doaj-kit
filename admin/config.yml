@@ -13,6 +13,13 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "with-sidebar"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publishing Date", name: "date", widget: "datetime"}
-      - {label: "Tags", name: "tag", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'components'
+    label: 'Components'
+    folder: 'components/'
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "with-sidebar"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publishing Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
 publish_mode: editorial_workflow
