@@ -1,0 +1,12 @@
+# config.yml
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'img/uploads'
+collections:
+  - name: 'building-blocks'
+    label: 'Building blocks'
+    folder: 'building-blocks/'
+    fields:
+      - { name: Title }
