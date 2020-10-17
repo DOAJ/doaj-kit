@@ -7,7 +7,7 @@ backend:
 media_folder: 'img/uploads'
 collections:
   - name: 'building-blocks'
-    label: 'Building blocks'
+    label: 'building blocks'
     folder: 'building-blocks/'
     create: true
     fields:
@@ -16,7 +16,7 @@ collections:
       - {label: "Publishing Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: 'components'
-    label: 'Components'
+    label: 'components'
     folder: 'components/'
     create: true
     fields:
@@ -25,7 +25,7 @@ collections:
       - {label: "Publishing Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: 'content-writing'
-    label: 'Content writing'
+    label: 'content writing tips'
     folder: 'content-writing/'
     create: true
     fields:

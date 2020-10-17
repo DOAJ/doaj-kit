@@ -6,7 +6,7 @@ category: building-block
 
 Generally, every page on the website should adhere to the following colour proportions.
 
-{% include blocks/colour-proportions.html %}
+<iframe title="Colour proportions on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D106%253A2" allowfullscreen></iframe>
 
 Collaterals like PDF reports may deviate from this, to use full-page blocks of colours for example.
 
@@ -28,4 +28,4 @@ Not all colours can be mixed together if we want content to be accessible for us
 
 The following are the acceptable (WCAG AA-compliant) combinations of colours for text and background.
 
-{% include blocks/colour-combos.html %}
+<iframe title="Colour combinations on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D42%253A2" allowfullscreen></iframe>

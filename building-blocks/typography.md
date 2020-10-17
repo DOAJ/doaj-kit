@@ -10,7 +10,7 @@ We have paired the SIL-licensed open source typefaces _Spectral_, a serif, _Sour
 
 Their usage is restricted to the following:  
 
-{% include blocks/pairing.html %}
+<iframe title="Typeface pairing on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D144%253A4" allowfullscreen></iframe>
 
 - Besides Latin & Latin extended scripts,
   - **Spectral** supports Vietnamese & Cyrillic (146 languages, 1,221 glyphs);
@@ -24,4 +24,12 @@ Their usage is restricted to the following:
 
 To create harmony in our font usage, we are using a typescale in minor third for headings (`<h1>`...`<h6>`) and body text (any flow content such as paragraphs and lists), with a base `font-size` of `16px`.
 
-{% include blocks/headings.html %}
+<iframe title="Headings on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D60%253A9" allowfullscreen></iframe>
+
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="css" data-user="sophyo" data-slug-hash="eYYWzEQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Headings">
+  <span>See the Pen <a href="https://codepen.io/sophyo/pen/eYYWzEQ">
+  Headings</a> by Sophy (<a href="https://codepen.io/sophyo">@sophyo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
