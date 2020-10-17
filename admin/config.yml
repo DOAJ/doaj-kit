@@ -9,6 +9,7 @@ collections:
   - name: 'building-blocks'
     label: 'Building blocks'
     folder: 'building-blocks/'
+    create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "with-sidebar"}
       - {label: "Title", name: "title", widget: "string"}
@@ -17,6 +18,7 @@ collections:
   - name: 'components'
     label: 'Components'
     folder: 'components/'
+    create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "with-sidebar"}
       - {label: "Title", name: "title", widget: "string"}
@@ -25,9 +27,9 @@ collections:
   - name: 'content-writing'
     label: 'Content writing'
     folder: 'content-writing/'
+    create: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "with-sidebar"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publishing Date", name: "date", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}
-publish_mode: editorial_workflow
