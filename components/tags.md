@@ -3,7 +3,7 @@ layout: with-sidebar
 title: Tags
 ---
 
-<p class="codepen" data-height="567" data-theme-id="dark" data-default-tab="result" data-user="doajkit" data-slug-hash="OJbgZaZ" style="height: 567px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Tags">
+<p class="codepen" data-height="567" data-theme-id="dark" data-default-tab="result" data-user="doajkit" data-slug-hash="OJbgZaZ" data-pen-title="Tags">
   <span>See the Pen <a href="https://codepen.io/doajkit/pen/OJbgZaZ">
   Tags</a> by DOAJ (<a href="https://codepen.io/doajkit">@doajkit</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>

@@ -1,13 +1,14 @@
 .sidebar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  padding: 130px 1em 1em 1em;
+  width: 25vw;
   height: 100vh;
-	width: 100%;
+	font-size: smaller;
   overflow-y: scroll;
-  font-size: smaller;
 
-	h2 {
-    margin-top: 2.5vw;
+	h2, h3 {
+    margin-top: 0;
 		font-size: 1em;
 		text-transform: uppercase;
 	}
@@ -20,21 +21,14 @@
 		list-style: none;
 		padding-left: 0;
 
-    > li {
-      text-transform: uppercase;
+    li:first-child {
+
     }
 
 		li a {
 			display: block;
-			padding: 0.75em 0;
-		}
-
-		ul li a {
-      text-transform: none;
-      
-			&:before {
-				content: '— ';
-			}
+			padding: 0.25em 0;
+			text-decoration: none;
 		}
 	}
 }

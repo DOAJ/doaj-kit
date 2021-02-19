@@ -26,7 +26,7 @@ To create harmony in our font usage, we are using a typescale in minor third for
 
 <iframe title="Headings on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D60%253A9" allowfullscreen></iframe>
 
-<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="css" data-user="sophyo" data-slug-hash="eYYWzEQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Headings">
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="css" data-user="sophyo" data-slug-hash="eYYWzEQ" data-pen-title="Headings">
   <span>See the Pen <a href="https://codepen.io/sophyo/pen/eYYWzEQ">
   Headings</a> by Sophy (<a href="https://codepen.io/sophyo">@sophyo</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
