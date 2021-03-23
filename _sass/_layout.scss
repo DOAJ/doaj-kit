@@ -24,13 +24,9 @@ html {
 	flex-wrap: wrap;
 }
 
-.sidebar {
-	position: relative;
-	width: 100%;
-}
-
 .content {
-  width: 100%;
+  margin: 130px $gutter $gutter 30vw;
+  width: 70vw;
 }
 
 @media (min-width: 768px) {

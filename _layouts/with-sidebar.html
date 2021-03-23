@@ -12,82 +12,87 @@
 
 	<header class="header">
 		<div class="container header__container">
+      <div class="header__logo-wrapper">
 			  <a href="{{ baseurl }}/" title="Return to home page">{% include logotype.svg %}</a>
 				<h1 class="header__title">{{ site.html_title }}</h1>
+      </div>
+
+        <a href="#" id="darkLightToggler" title="Toggle between dark mode and light mode"><span data-feather="moon"></span></a>
 		</div>
 	</header>
 
-	<main class="container">
-		<div class="row">
-			<nav class="sidebar">
-				<h2>Table of contents</h2>
+	<main>
+    <nav class="sidebar">
+      <h2>Table of contents</h2>
 
-				<a href="#" class="sidebar__icon" id="sidebar__icon" aria-label="Click to open menu">
-					<span data-feather="menu"></span>
-				</a>
+      <a href="#" class="sidebar__icon" id="sidebar__icon" aria-label="Click to open menu">
+        <span data-feather="menu"></span>
+      </a>
 
-				<ul class="sidebar__menu">
-					<li><a href="{{ baseurl }}/index">Overview</a></li>
-					<li>
-						Building blocks
-						<ul>
-							<li><a href="{{ baseurl }}/building-blocks/colours">Colours</a></li>
-							<li><a href="{{ baseurl }}/building-blocks/typography">Typography</a></li>
-							<li><a href="{{ baseurl }}/building-blocks/icons">Icons</a></li>
-							<li><a href="{{ baseurl }}/building-blocks/patterns">Patterns</a></li>
-							<li><a href="{{ baseurl }}/building-blocks/layout">Layout</a></li>
-							<li><a href="{{ baseurl }}/building-blocks/logotype">Logotype</a></li>
-						</ul>
-					</li>
-          <li>
-            Content writing
-            <ul>
-							<li><a href="{{ baseurl }}/content-writing/general-principles">General principles</a></li>
-  						<li><a href="{{ baseurl }}/content-writing/grammar-syntax-typography">Grammar, syntax, & typography rules</a></li>
-  						<li><a href="#">Structured content</a></li>
-  						<li><a href="#">Inclusive language</a></li>
-  						<li><a href="#">Writing for forms</a></li>
-  						<li><a href="#">Writing technical documentation</a></li>
-						</ul>
-          </li>
-					<li>
-						Components
-						<ul>
-							<li><a href="{{ baseurl }}/components/alerts">Alerts</a></li>
-  						<li><a href="{{ baseurl }}/components/article-summary">Article summaries</a></li>
-  						<li><a href="{{ baseurl }}/components/back-to-top">Back to top</a></li>
-  						<li><a href="{{ baseurl }}/components/buttons">Buttons</a></li>
-  						<li><a href="{{ baseurl }}/components/cards">Cards</a></li>
-							<li><a href="{{ baseurl }}/components/checkboxes">Checkboxes</a></li>
-  						<li><a href="{{ baseurl }}/components/dropdowns">Dropdowns</a></li>
-  						<li><a href="{{ baseurl }}/components/dropdowns">Filters</a></li>
-  						<li><a href="{{ baseurl }}/components/forms">Forms</a></li>
-  						<li><a href="{{ baseurl }}/components/input-groups">Input groups</a></li>
-  						<li><a href="{{ baseurl }}/components/labels">Labels</a></li>
-  						<li><a href="{{ baseurl }}/components/loading">Loading</a></li>
-  						<li><a href="{{ baseurl }}/components/modals">Modals</a></li>
-  						<li><a href="{{ baseurl }}/components/pager-buttons">Pager buttons</a></li>
-  						<li><a href="{{ baseurl }}/components/pagination">Pagination</a></li>
-  						<li><a href="{{ baseurl }}/components/removable-fields">Removable fields</a></li>
-  						<li><a href="{{ baseurl }}/components/search-results">Search results</a></li>
-							<li><a href="{{ baseurl }}/components/summaries">Summaries</a></li>
-							<li><a href="{{ baseurl }}/components/stats">Stats</a></li>
-							<li><a href="{{ baseurl }}/components/tabular-lists">Tabular lists</a></li>
-							<li><a href="{{ baseurl }}/components/tags">Tags</a></li>
-							<li><a href="{{ baseurl }}/components/title-lists">Title lists</a></li>
-						</ul>
-					</li>
-					<li><a href="{{ baseurl }}/themes">Themes</a></li>
-				</ul>
+      <ul class="sidebar__menu">
+        <li><a href="{{ baseurl }}/index">Overview</a></li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Building blocks</h3>
+          <ul>
+            <li><a href="{{ baseurl }}/building-blocks/colours">Colours</a></li>
+            <li><a href="{{ baseurl }}/building-blocks/typography">Typography</a></li>
+            <li><a href="{{ baseurl }}/building-blocks/icons">Icons</a></li>
+            <li><a href="{{ baseurl }}/building-blocks/patterns">Patterns</a></li>
+            <li><a href="{{ baseurl }}/building-blocks/layout">Layout</a></li>
+            <li><a href="{{ baseurl }}/building-blocks/logotype">Logotype</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Components</h3>
+          <ul>
+            <li><a href="{{ baseurl }}/components/alerts">Alerts</a></li>
+            <li><a href="{{ baseurl }}/components/article-summary">Article summaries</a></li>
+            <li><a href="{{ baseurl }}/components/back-to-top">Back to top</a></li>
+            <li><a href="{{ baseurl }}/components/buttons">Buttons</a></li>
+            <li><a href="{{ baseurl }}/components/cards">Cards</a></li>
+            <li><a href="{{ baseurl }}/components/checkboxes">Checkboxes</a></li>
+            <li><a href="{{ baseurl }}/components/dropdowns">Dropdowns</a></li>
+            <li><a href="{{ baseurl }}/components/dropdowns">Filters</a></li>
+            <li><a href="{{ baseurl }}/components/forms">Forms</a></li>
+            <li><a href="{{ baseurl }}/components/input-groups">Input groups</a></li>
+            <li><a href="{{ baseurl }}/components/labels">Labels</a></li>
+            <li><a href="{{ baseurl }}/components/loading">Loading</a></li>
+            <li><a href="{{ baseurl }}/components/modals">Modals</a></li>
+            <li><a href="{{ baseurl }}/components/pager-buttons">Pager buttons</a></li>
+            <li><a href="{{ baseurl }}/components/pagination">Pagination</a></li>
+            <li><a href="{{ baseurl }}/components/removable-fields">Removable fields</a></li>
+            <li><a href="{{ baseurl }}/components/search-results">Search results</a></li>
+            <li><a href="{{ baseurl }}/components/summaries">Summaries</a></li>
+            <li><a href="{{ baseurl }}/components/stats">Stats</a></li>
+            <li><a href="{{ baseurl }}/components/tabular-lists">Tabular lists</a></li>
+            <li><a href="{{ baseurl }}/components/tags">Tags</a></li>
+            <li><a href="{{ baseurl }}/components/title-lists">Title lists</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <h3>Content writing</h3>
+          <ul>
+            <li><a href="{{ baseurl }}/content-writing/general-principles">General principles</a></li>
+            <li><a href="{{ baseurl }}/content-writing/grammar-syntax-typography">Grammar, syntax, & typography rules</a></li>
+            <li><a href="#">Structured content</a></li>
+            <li><a href="#">Inclusive language</a></li>
+            <li><a href="#">Writing for forms</a></li>
+            <li><a href="#">Writing technical documentation</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
 
-				<a href="#" id="darkLightToggler" title="Toggle between dark mode and light mode"><span data-feather="moon"></span></a>
-			</nav>
-
-			<section class="content">
-				<h1>{{ page.title }}</h1>
-				{{ content }}
-			</section>
-		</div>
+    <section class="content">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </section>
 
 		<script src="https://unpkg.com/feather-icons"></script>
 

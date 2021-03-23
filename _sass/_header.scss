@@ -1,6 +1,10 @@
 .header {
+  position: fixed;
+  top: 0;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+  width: 100%;
+  z-index: 20;
 
 	.header__title {
 		margin-top: 0.5rem;
@@ -12,11 +16,20 @@
 	.header__container {
 		display: flex;
 		align-items: center;
+    justify-content: space-between;
 	}
+
+  .header__logo-wrapper  {
+    display: flex;
+  }
 
 	.header__logo {
 		height: 40px;
 		width: auto;
 		margin-right: 1rem;
 	}
+
+  a {
+    color: $white;
+  }
 }
