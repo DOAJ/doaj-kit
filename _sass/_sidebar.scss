@@ -1,13 +1,14 @@
 .sidebar {
-  position: sticky;
+  padding: 130px 1em 1em 1em;
+  position: fixed;
   top: 0;
   height: 100vh;
-	width: 100%;
+	width: 25vw;
   overflow-y: scroll;
   font-size: smaller;
 
-	h2 {
-    margin-top: 2.5vw;
+	h2, h3 {
+    margin-top: 0;
 		font-size: 1em;
 		text-transform: uppercase;
 	}

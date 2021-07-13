@@ -29,9 +29,8 @@ html {
 }
 
 .content {
-  padding-left: 2.5vw;
-  padding-right: 2.5vw;
-  width: 100%;
+  margin: 130px $gutter $gutter 30vw;
+  width: 75vw;
 }
 
 @media (min-width: 768px) {
