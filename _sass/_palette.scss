@@ -4,13 +4,19 @@
 
 // Greyscale
 $black: 					hsl(30, 5%, 15%);
-$white: 					hsl(30, 75%, 98%);
+$dark-grey:       hsl(30, 3%, 35%);
+$light-grey:      hsl(0, 10%, 96%);
+$white: 					hsl(0, 0%, 100%);
 
 // Multichromatic
-$pine:	       		hsl(180, 100%, 21%);
-$teal: 						hsl(179, 67%, 37%);
 $sanguine: 	    	hsl(15, 88%, 32%);
 $grapefruit: 	  	hsl(10, 98%, 61%);
+$salmon:          hsl(10, 92%, 75%);
+
+$dark-green:      hsl(180, 21%, 29%);
+$mid-green:       hsl(153, 39%, 45%);
+$light-green:     hsl(91, 34%, 65%);
+$yellow:          hsl(49, 93%, 65%);
 
 // Accessible colour combinations for `color` & `background-color`
 // when used with the multichromatic palette
@@ -42,16 +48,6 @@ $grapefruit: 	  	hsl(10, 98%, 61%);
 .white-fill {
 	fill: $white;
 	stroke: $black;
-}
-
-.pine-fill {
-	fill: $pine;
-	stroke: $pine;
-}
-
-.teal-fill {
-	fill: $teal;
-	stroke: $teal;
 }
 
 .sanguine-fill {
