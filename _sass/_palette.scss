@@ -45,9 +45,24 @@ $yellow:          hsl(49, 93%, 65%);
 	stroke: $black;
 }
 
+.dark-grey-fill {
+	fill: $dark-grey;
+	stroke: $dark-grey;
+}
+
+.light-grey-fill {
+	fill: $light-grey;
+	stroke: $dark-grey;
+}
+
+.black-fill {
+	fill: $black;
+	stroke: $black;
+}
+
 .white-fill {
 	fill: $white;
-	stroke: $black;
+	stroke: $dark-grey;
 }
 
 .sanguine-fill {
@@ -58,4 +73,29 @@ $yellow:          hsl(49, 93%, 65%);
 .grapefruit-fill {
 	fill: $grapefruit;
 	stroke: $grapefruit;
+}
+
+.salmon-fill {
+	fill: $salmon;
+	stroke: $salmon;
+}
+
+.dark-green-fill {
+	fill: $dark-green;
+	stroke: $dark-green;
+}
+
+.mid-green-fill {
+	fill: $mid-green;
+	stroke: $mid-green;
+}
+
+.light-green-fill {
+	fill: $light-green;
+	stroke: $light-green;
+}
+
+.yellow-fill {
+	fill: $yellow;
+	stroke: $yellow;
 }
