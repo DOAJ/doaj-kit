@@ -5,7 +5,7 @@ category: building-block
 date: 2020-10-19T14:11:28.267Z
 ---
 
-<iframe title="Logotype on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D4301%253A25" allowfullscreen></iframe>
+<iframe title="Logotype on Figma" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FCLkv5unlaRSU5YABUNqN1v%2FBuilding-blocks%3Fnode-id%3D1152%253A6%26t%3D1aBbWuPctABE16pC-1" allowfullscreen></iframe>
 
 ⟶ [Download](/files/DOAJ_Logos_Digital.zip) all four variations of the logo in SVG and PNG.
 
