@@ -1,5 +1,4 @@
 ## Images
-
 - Inaccessible image: no information at all about the image for screen readers
 - Accessible image: includes a description of the image
 - Image meant to inform readers (should be accompanied by alt-text) vs. decorative images (don’t need alt-text)
@@ -13,10 +12,10 @@
 
 ## Tables
 - Should only be used to present information and not for adding formatting
-- For simple data use a list instead of table - Google Doc tables are difficult to make accessible.
+- For simple data use a list instead of a table - Google Doc tables are difficult to make accessible.
 
 ## Columns
-- When using columns, screenreaders will not understand columns created by using the tab key or spacebar to create the visual appearance of columns. A screenreader will not understand the proper reading order and may jump across columns, reading text left-to-right.
+- When using columns, screenreaders will not understand columns created by using the tab key or spacebar to create the visual appearance of columns. A screenreader will not understand the proper reading order and may jump across columns, reading text left to right.
 - Use column formatting instead. 
   - Highlight the text that you need to format
   - Click the format menu
@@ -32,7 +31,7 @@
 - Choose foreground colours that contrast sharply with background colours
 - Colour: avoid using colour to convey meaning; doing this means the meaning is only available to those who can see colour
 - Avoid relying on colour and visual styling to convey meaning
-- Use textual elements to convey meaning such as asterisks
+- Use textual elements to convey meaning, such as asterisks
 
 ## Text Style
 - Avoid centre-justifying your text. It is harder to read because the spacing between words is modified to stretch the text to the line end. Instead, try to use left-aligned text because its standardized spacing is easier to read.
@@ -43,7 +42,7 @@
 - Include page numbers in your Google Doc by going to the top menu, clicking Insert, and choosing Page Number
 
 ## Recommended Tools
-- Microsoft Word has an accessibility checker built-in. Adobe Reader has the same. Both good for when you're converting Google Docs to accessible PDFs.
+- Microsoft Word has an accessibility checker built-in. Adobe Reader has the same. Both are good for when you're converting Google Docs to accessible PDFs.
 - WCAG Color Contrast Checker
 
-These notes are taken from a presentation made by Library Publishing Coalition. The original slides are here: https://docs.google.com/presentation/d/1B2oIn9fksjEATMniwsXfC9ejbAE8E5hh1_6FqVu7WSQ/edit?usp=sharing 
+These notes are taken from a presentation made by the Library Publishing Coalition. The original slides are here: https://docs.google.com/presentation/d/1B2oIn9fksjEATMniwsXfC9ejbAE8E5hh1_6FqVu7WSQ/edit?usp=sharing 
