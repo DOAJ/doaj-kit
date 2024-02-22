@@ -1,3 +1,8 @@
+---
+layout: with-sidebar
+title: 'Accessibility when creating content'
+---
+
 ## Images
 - Inaccessible image: no information at all about the image for screen readers
 - Accessible image: includes a description of the image
