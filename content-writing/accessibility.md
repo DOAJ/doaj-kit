@@ -3,7 +3,7 @@ layout: with-sidebar
 title: 'Accessibility when creating content'
 ---
 
-## Images
+## Images etc
 - Inaccessible image: no information at all about the image for screen readers
 - Accessible image: includes a description of the image
 - Image meant to inform readers (should be accompanied by alt-text) vs. decorative images (don’t need alt-text)
