@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/67fa3a98-d9e6-4784-95c7-06a0c5f3183d/deploy-status)](https://app.netlify.com/sites/doaj-kit/deploys)
+
 # Manuscript: DOAJ’s Kit
 
 The beginnings of a design system for DOAJ.org.
